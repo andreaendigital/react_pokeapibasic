@@ -1,13 +1,12 @@
 // Importando funciones y componentes necesarios
 import { useState } from "react";
-import { Header } from "./components/Header";
 import "./App.css";
 import { MiApi } from "./components/MiApi";
 import Footer from "./components/Footer";
 import { Cards } from "./components/Cards";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function App({ results }) {
+function App( ) {
   // con useState creo dos estados locales:
   const [busqueda, setBusqueda] = useState("");
   const [url, setUrl] = useState(
@@ -35,11 +34,11 @@ function App({ results }) {
         />
        </div>
       <div>
-        <h1 className="m-1">¡Atrapa a tu pokemon! </h1>
+        <h1 className="mb-3">¡Atrapa a tu pokemon! </h1>
 
         <h3>Ingresa el nombre del pokemon que buscas:</h3>
         <input
-          className="d-flex-inline m-3 mb-5"
+          className="m-3 mb-4"
           type="text"
           value={busqueda}
           onChange={handleSearchChange}
