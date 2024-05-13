@@ -1,12 +1,10 @@
 # API con React
 
-## Descripción del Proyecto
+## Descripción del Proyecto :scroll:
 
 Proyecto donde se validan conocimientos de React, construcción de API, manejo de datos resultados como array.
 
-### :scroll: Contexto :scroll:
-El Banco Solar acaba de decidir invertir en un equipo de desarrolladores Full Stack que desarrollen un nuevo sistema de transferencias, y han anunciado que todo aquel que postule al cargo debe realizar un servidor con Node que utilice PostgreSQL para la gestión y persistencia de datos, y simular un sistema de transferencias.
-El sistema debe permitir registrar nuevos usuarios con un balance inicial y basados en estos, realizar transferencias de saldos entre ellos.
+Prueba final del módulo de cuatro semanas de React, desarrollo de app básica donde se demuestra conocimiento de uso de estados y hook useEffect, más consumo de API y métodos de JS (sort, filter y map).
 
 ## Sobre el proyecto 🚀
 
@@ -56,9 +54,20 @@ Lista de software y herramientas, incluyendo versiones, que necesitas para insta
 
 ## Visuales :mage_woman:
 
-- #### Front:
+- #### Front, el API carga por orden de ID por defecto:
 
-- 
+  ![pokeapi_front](https://github.com/andreaendigital/react_pokeapibasic/assets/154395788/a5d27090-d2e6-48a2-94d8-0d5e9b050a7c)
+
+- #### Ordenando el Array Alfabéticamente (Botón Rojo):
+
+![pokeapi-az](https://github.com/andreaendigital/react_pokeapibasic/assets/154395788/0ec8cd17-fa04-49f4-adc2-d461b0b0a190)
+
+
+- #### Resultados de Búsqueda:
+
+![pokeapi_busqueda](https://github.com/andreaendigital/react_pokeapibasic/assets/154395788/1b5b7661-45b4-4f7f-a4ff-fda1e77a0c0c)
+
+
 
 ## Construido Con 🛠️
 
